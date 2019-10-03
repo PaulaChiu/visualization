@@ -1,0 +1,257 @@
+[
+  {
+    "Name": "Steffi Graf",
+    "Weeks": 377,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Martina Navratilova",
+    "Weeks": 332,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Serena Williams",
+    "Weeks": 319,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Roger Federer",
+    "Weeks": 308,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Pete Sampras",
+    "Weeks": 286,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Ivan Lendl",
+    "Weeks": 270,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Jimmy Connors",
+    "Weeks": 268,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Chris Evert",
+    "Weeks": 260,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Novak Djokovic",
+    "Weeks": 223,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Martina Hingis",
+    "Weeks": 209,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Monica Seles",
+    "Weeks": 178,
+    "Gender": "Female"
+  },
+  {
+    "Name": "John McEnroe",
+    "Weeks": 170,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Rafael Nadal",
+    "Weeks": 167,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Justine Henin",
+    "Weeks": 117,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Björn Borg",
+    "Weeks": 109,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Andre Agassi",
+    "Weeks": 101,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Lindsay Davenport",
+    "Weeks": 98,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Lleyton Hewitt",
+    "Weeks": 80,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Stefan Edberg",
+    "Weeks": 72,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Caroline Wozniacki",
+    "Weeks": 71,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Jim Courier",
+    "Weeks": 58,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Victoria Azarenka",
+    "Weeks": 51,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Gustavo Kuerten",
+    "Weeks": 43,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Andy Murray",
+    "Weeks": 41,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Ilie Nastase",
+    "Weeks": 40,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Amélie Mauresmo",
+    "Weeks": 39,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Angelique Kerber",
+    "Weeks": 34,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Dinara Safina",
+    "Weeks": 26,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Tracy Austin",
+    "Weeks": 21,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Simona Halep",
+    "Weeks": 21,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Maria Sharapova",
+    "Weeks": 21,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Mats Wilander",
+    "Weeks": 20,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Kim Clijsters",
+    "Weeks": 20,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Jelena Janković",
+    "Weeks": 18,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Jennifer Capriati",
+    "Weeks": 17,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Andy Roddickc",
+    "Weeks": 13,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Ana Ivanovic",
+    "Weeks": 12,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Boris Becker",
+    "Weeks": 12,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Arantxa Sánchez Vicario",
+    "Weeks": 12,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Venus Williams",
+    "Weeks": 11,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Marat Safin",
+    "Weeks": 9,
+    "Gender": "Male"
+  },
+  {
+    "Name": "John Newcombe",
+    "Weeks": 8,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Juan Carlos Ferrero",
+    "Weeks": 8,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Karolína Plíšková",
+    "Weeks": 8,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Yevgeny Kafelnikov",
+    "Weeks": 6,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Marcelo Ríos",
+    "Weeks": 6,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Thomas Muster",
+    "Weeks": 6,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Garbiñe Muguruza",
+    "Weeks": 4,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Evonne Goolagong Cawley",
+    "Weeks": 2,
+    "Gender": "Female"
+  },
+  {
+    "Name": "Carlos Moya",
+    "Weeks": 2,
+    "Gender": "Male"
+  },
+  {
+    "Name": "Patrick Rafter",
+    "Weeks": 1,
+    "Gender": "Male"
+  }
+]

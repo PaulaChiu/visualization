@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Visualising a CSV file with Chart.js</title>
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
+<style>
+body {
+  font-family: 'Roboto';
+  color: #333;
+  background-color: #F9F7EB;
+}
+
+#title {
+  font-family: 'Merriweather';
+  text-align: center;
+  padding: 30px;
+  font-size: 28px;
+  letter-spacing: -0.01em;
+  color: #333;
+}
+
+#legend {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px 10px;
+  font-size: 12px;
+}
+
+#legend .item {
+  line-height: 12px;
+  padding: 0 10px 0 4px;
+}
+
+#legend .item.male {
+  border-left: 12px solid #19A0AA;
+}
+
+#legend .item.female {
+  border-left: 12px solid #F15F36;
+}
+
+#chart-wrapper {
+  height: 1000px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+#footer a {
+  color: #aaa;
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<div id="title">Which tennis player was No.1 the longest?</div>
+<div id="legend">
+<div class="item female">Women</div>
+<div class="item male">Men</div>
+</div>
+<div id="chart-wrapper">
+<canvas id="chart"></canvas>
+</div>
+<div id="footer">
+<div class="left"><a href="https://createwithdata.com/chartjs-and-csv/" target="_blank">About</a></div>
+<div class="right">Source: <a href="https://public.tableau.com/en-us/s/resources" target="_blank">Tableau</a> / Wikipedia</div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js'></script>
+<script id="rendered-js">
+Chart.defaults.global.defaultFontFamily = 'Roboto';
+Chart.defaults.global.defaultFontColor = '#333';
+
+function makeChart(players) {
+  var playerLabels = players.map(function (d) {return d.Name;});
+  var weeksData = players.map(function (d) {return +d.Weeks;});
+  var playerColors = players.map(function (d) {return d.Gender === 'Female' ? '#F15F36' : '#19A0AA';});
+
+  var chart = new Chart('chart', {
+    type: 'horizontalBar',
+    options: {
+      maintainAspectRatio: false,
+      legend: {
+        display: false },
+      scales: {
+        xAxes: [
+        {
+          scaleLabel: {
+            display: true,
+            labelString: 'Weeks at No.1',
+            fontSize: 16 } }] } },
+    data: {
+      labels: playerLabels,
+      datasets: [
+      {
+        data: weeksData,
+        backgroundColor: playerColors }] } });
+}
+
+// Request data using D3
+// d3.csv('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2814973/atp_wta.csv').
+// d3.csv('atp_wta.csv').
+//   then(makeChart);
+
+d3.json('atp_wta.json').
+  then(makeChart);
+
+</script>
+</body>
+</html>
